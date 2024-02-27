@@ -1,0 +1,161 @@
+@media(max-width:991px) {
+    .menu{
+        padding:30px;
+    }
+    .swiper{
+        padding:0 70px;
+    
+    }
+    .swiper-slide img{
+        width:100%
+    }
+}
+
+body {
+    font-family:Kalam,Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+img{
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    
+}
+header {
+    width: 100%;
+    height: 50%;
+    position: relative;
+    background-color:#7FC7D9;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a{
+    text-decoration:none;
+    color: #fff;
+    align-items:center ;
+}
+
+header nav ul li a:hover{
+    color:#E5E1DA;
+}
+
+main {
+    padding: 20px;
+    width: auto;
+    height: auto;
+}
+h2 p {
+    display: grid;
+    align-items: center;
+    margin-left:300px;
+    padding: 50px;
+}
+.swiper{
+    margin-top: 40px;
+    margin-left: 80px;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+    display: block;
+}
+
+.swiper-slide{
+    margin-bottom:50px;
+    background-color: #ffff;
+    box-shadow: 0 30px 30px rgba(0, 0,0,0.2);
+    border-radius: 15px;
+    height: 420px;
+    width:295px;
+    position:relative;
+}
+
+.swiper-slide img{
+    width: 295px;
+    border-radius: 15px;
+    height: 420px;
+}
+
+div .formulario {
+    width:360px;
+    margin:100px;
+    height: 700px;
+    align-items: stretch;
+    color:#C7C8CC;
+}
+
+
+#logo2{
+    width: 320px;
+    padding:5px;
+    margin:20px auto;
+    align-items: center;
+    
+}
+
+ form {
+  width:350px;
+  background:white;
+  border-radius: 10px;
+}
+input {
+  width:80%;
+  height:35px;
+  border: none;
+  background:#FBF9F1;
+  padding:0 20px;
+  margin:10px;
+  border-radius: 0 5px  5px 0 ;
+  align-items: center;
+}
+
+input[type="submit"]{
+  background: #AAD7D9;
+  width:300px;
+  margin-left: 20px;
+  border:none;
+  color: white;
+  cursor:pointer;
+  border-radius:5px;
+  font-size:15px;
+
+}
+
+input[type="submit"]:hover{
+  background:#E5E1DA;
+}
+label{
+    display:grid;
+    grid-column:initial;
+    padding: 10px;
+    align-items: center;
+}
+
+input[type="button"]{
+    display:none;
+
+}
+
+footer {
+    background-color:#7FC7D9;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position:relative;
+}
