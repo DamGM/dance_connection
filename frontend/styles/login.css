@@ -1,0 +1,27 @@
+
+
+.fondo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    height: auto;
+    width: 100%;
+}
+
+.fondo img{
+    max-width: 600px;
+    height: auto;
+
+}
+
+.cuenta {
+    color: blue;
+}
+
+.offcanvas {
+    background: linear-gradient(to right, #7FC7D9, #92C7CF);
+}
+
+
+
+

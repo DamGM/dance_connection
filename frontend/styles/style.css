@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;600;700;800&display=swap');
+/*Cuerpo*/
+body {
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+/* Cabecera*/
+.navbar {
+  background-color: #7FC7D9;
+}
+
+
+/* carousel*/
+
+.carousel-item  {
+    max-height: 39rem;
+    
+}
+/*banner*/
+.titulo-comunidad {
+   background: linear-gradient(to right, #92C7CF, #AAD9BB, #D5F0C1);
+   height: 60px;
+   padding:15px;
+   color:white;
+   font-family: "Montserrat", sans-serif;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+/*Login*/
+.text-login h4{
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    padding-top:30px;
+}
+
+.formulario {
+    position: relative;
+    width: 400px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario img {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+
+.card a {
+    color:#fff;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    left: 40%;
+}
+
+
+.card-body {
+    justify-content: space-between;
+    text-align: justify;
+    top:10px;
+}
+
+i .bi-cursor {
+  color:#23547B;
+}
+
+/*Pie de pag*/
+footer {
+  background-color:#7FC7D9;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position:static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.select-language {
+  appearance: none;
+  background: transparent;
+  border-style: none;
+  color: #7FC7D9;
+  font-weight: 500;
+  font-size: 18px;
+  outline: none;
+  cursor: pointer;
+  
+}
+
+.select-language option {
+  background: grey;
+}
