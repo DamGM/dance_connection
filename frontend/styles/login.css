@@ -22,6 +22,31 @@
     background: linear-gradient(to right, #7FC7D9, #92C7CF);
 }
 
+footer {
+    background-color:#7FC7D9;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .select-language {
+    appearance: none;
+    background: transparent;
+    border-style: none;
+    color: #7FC7D9;
+    font-weight: 500;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+    
+  }
+  
+  .select-language option {
+    background: grey;
+  }
 
 
 
